@@ -11,6 +11,9 @@ namespace BookStoreAPI.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Paage";
+            int a = 1;
+            int b = 2;
+            int c = 3;
             return View();
         }
     }
